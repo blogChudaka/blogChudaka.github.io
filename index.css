@@ -15,10 +15,22 @@ a {
 
 #primary-menu {
     position: relative;
-    width: 60%;
+    width: 62%;
     background: #3F1880;
     margin: 0 auto;
     
+}
+
+#INF {
+    color: black;
+    position: relative;
+    width: 62%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.INF-text {
+    padding: 10px;
 }
 
 .container {
@@ -28,23 +40,21 @@ a {
 #primary-menu > ul {
     padding: auto;
     margin: auto;
-    font-size: 0;
 }
 #primary-menu > ul > li {
     display: inline-block;
     list-style: none;
     font-size: 30px;
+    margin-right: 10%;
     position: relative;
 }
 #primary-menu > ul > li a {
-    display: inline-block;
+    position: relative;
     color: aliceblue;
     text-decoration: none;
-    line-height: 100%;
-    height: 100%;
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-right: 80px;
+    padding-right: 20%;
+    padding-left: 20%;
+    transition: .4s ease;
     
 }
 #primary-menu > ul > li a:hover {
